@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Fig. 5.10: imageborder.html -->
+ <!-- Stretching and repeating an image to create a border. -->
+<html>
+ <head>
+ <meta charset = "utf-8">
+ <title>Image Border</title>
+
+
+
+
+<a href ="../../1st project/homeworks.html">Go Back</a>
+
+ 
+<style type ="text/css">
+div
+ {
+  border-width: 30px;
+width: 234px;
+padding: 20px 20px;
+}
+#stretch
+{
+  -webkit-border-image: url(ocean.jpg) 80 80 80 80 stretch;
+  -moz-border-image: url(ocean.jpg) 80 80 80 80 stretch;
+  -o-border-image: url(ocean.jpg) 80 80 80 80 stretch;
+  border-image: url(ocean.jpg) 80 80 80 80 stretch;
+ }
+#repeat
+{
+-webkit-border-image:url(ocean.jpg) 34% 34% repeat;
+  -moz-border-image: url(ocean.jpg) 34% 34% repeat;
+  -o-border-image:url(ocean.jpg) 34% 34% repeat;
+  border-image:url(ocean.jpg) 34% 34% repeat;
+}
+</style>
+ </head>
+  <body>
+  <h2> Image Borders</h2>
+  <img src = "ocean.jpg" alt = "image used to demonstrate borders">
+  <p>
+  <div id="stretch">Stretching the image border</div></p> <p><div id="repeat">Repeating the image border</div>
+</p>
+  </body>
+ </html>
