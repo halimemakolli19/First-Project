@@ -3,12 +3,85 @@
 <!-- HTML, CSS and JAVASCRIPT-->
 <html>
 <head>
-	
-	<title>HomeWorks</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-	
+<style>
+  body{
+  background: lightgreen;
+}
+.div1{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top:10%;
+  left: -30px;  
+}
+.div2{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 0px;
+  left: -0%;
+}
 
+li{
+  font-size: 150%;
+  background:black;
+  color: black;
+  padding: 3px; 
+}
+ul{
+  list-style: none;
+}
+
+.dropdown-content a{
+  padding: 3px;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 8px 10px;
+  z-index: 1;
+}
+a{
+  color: white;
+  background: #444;
+  text-decoration: none;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+  width: 175px;
+
+}
+
+.dropdown-content{
+  position: absolute;
+}
+.fa{
+    padding: 10px;
+     font-size: 20px;
+      width: 50px;
+     text-align: center;
+    text-decoration: none;
+      
+  
+
+  .footer{
+    background-color: black;
+  }
+
+<link rel="stylesheet" href="style3.css">
+  
+</style>
+</head>
 <body>
     <header>
       <ul>
@@ -27,8 +100,6 @@
   <center>
   <div class="container">
  
-
-
     <text align="center">
 
   <h1><b><i>HTML (Hyper Text Markup Language) </i></b></h1>
@@ -38,24 +109,27 @@
     <h3><b><i>JavaScript (scripting Language)</i></b></h3>
 
 
-
     <p><i><b>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content...</b></i></p>
 
     <p><i><b>CSS describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once. External stylesheets are stored in CSS files.)</b></i></p>
 
 
-    <p><b><i>JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.</i></b></p>
+    <p><b><i>JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.</i></b></p> <br><br><br>
 
-    
-    <div class= "navbar">
 
-      <div class= "dropdown">
-        <button class= "dropbtn">Chapter 2
-          <i class=" fa fa-caret-down"></i>
-        </button>
-        <div class= "dropdown-content">
-          
-          <a href= "Chapter2/main.html">Main</a>
+
+  
+
+
+
+
+     
+      <section class="sec-1">
+        <center>
+          <div class="dropdown">
+          <span>CHAPTER 2</span>
+          <div class= "dropdown-content">
+          <p><a href= "Chapter2/main.html">Main</a>
           <a href= "Chapter2/heading.html">Heading</a>
           <a href= "Chapter2/links.html">Links</a>
           <a href= "Chapter2/contact.html">Contact</a>
@@ -69,36 +143,26 @@
           <a href= "Chapter2/form.html"> Form </a>
           <a href= "Chapter2/form2.html"> Form2 </a>
           <a href= "Chapter2/internal.html"> Internal </a>
-          <a href= "chapter2/meta.html"> Meta </a>
-
-
-
-
-
-
-              <div class= "navbar">
-
-      <div class= "dropdown">
-        <button class= "dropbtn">Chapter 3
-          <i class=" fa fa-caret-down"></i>
-        </button>
-        <div class= "dropdown-content">
-          
-          <a href= "Chapter3/NewFormInputTypes.html">NewFormInputTypes</a>
+          <a href= "chapter2/meta.html"> Meta </a></p> </div></center> <br><br>
+       
+   
+      <section class="sec-1">
+        <center>
+          <div class="dropdown">
+          <span>CHAPTER 3</span>
+          <div class= "dropdown-content">
+         <p><a href= "Chapter3/NewFormInputTypes.html">NewFormInputTypes</a>
           <a href= "Chapter3/autocomplete.html">AutoComplete</a>
-          <a href= "Chapter3/sectionelements.html">SectionElements</a>
+          <a href= "Chapter3/sectionelements.html">SectionElements</a></p> </div></center> <br><br>
            
 
-
-    <div class= "navbar">
-
-      <div class= "dropdown">
-        <button class= "dropbtn">Chapter 4
-          <i class=" fa fa-caret-down"></i>
-        </button>
-        <div class= "dropdown-content">
-          
-          <a href= "Chapter4/positioning.html">Positioning</a>
+ 
+            <section class="sec-1">
+        <center>
+          <div class="dropdown">
+          <span>CHAPTER 4</span>
+          <div class="dropdown-content">
+          <p><a href= "Chapter4/positioning.html">Positioning</a>
           <a href= "Chapter4/positioning2.html">Positioning2</a>
           <a href= "Chapter4/inline.html">Inline</a>
           <a href= "Chapter4/embedded.html">Embedded</a>
@@ -111,19 +175,18 @@
           <a href= "Chapter4/dropdown.html"> DropDown</a>
           <a href= "Chapter4/user_absolute.html"> UserAbsolute </a>
           <a href= "Chapter4/user_relative.html"> UserRelative </a>
-          <a href= "Chapter4/floating.html"> Floating </a>
+          <a href= "Chapter4/floating.html"> Floating </a></p> </div></center> <br><br>
 
 
 
-          <div class= "navbar">
 
-      <div class= "dropdown">
-        <button class= "dropbtn">Chapter 5
-          <i class=" fa fa-caret-down"></i>
-        </button>
-        <div class= "dropdown-content">
-          
-          <a href= "Chapter5/textshadow.html">TextShadow</a>
+  
+              <section class="sec-1">
+        <center>
+          <div class="dropdown">
+          <span>CHAPTER 5</span>
+          <div class="dropdown-content">
+          <p><a href= "Chapter5/textshadow.html">TextShadow</a>
           <a href= "Chapter5/roundedcorners.html">RoundedCorners</a>
           <a href= "Chapter5/boxshadow.html">BoxShadow</a>
           <a href= "Chapter5/lineargradient.html">LinearGradient</a>
@@ -139,79 +202,76 @@
           <a href= "Chapter5/reflection.html"> Reflection </a>
           <a href= "Chapter5/skew.html"> Skew </a>
           <a href= "Chapter5/Meltingimages.html"> Addition </a>
-          <a href= "Chapter5/mediaqueries.html"> MediaQueries</a>
+          <a href= "Chapter5/mediaqueries.html"> MediaQueries</a></p> </div></center> <br><br>
 
-<section class="sec-1">
-  <center>
-  <div class="container">
+
   
-
- <div class= "navbar">
-
-      <div class= "dropdown">
-        <button class= "dropbtn">Chapter 6
-          <i class=" fa fa-caret-down"></i>
-        </button>
-        <div class= "dropdown-content">
-
-
-
-           <a href= "Chapter6/addition.html"> Addition</a>
+        <section class="sec-1">
+         <center>
+          <div class="dropdown">
+            <span>CHAPTER 6</span>
+          <div class="dropdown-content">
+          <p><a href= "Chapter6/addition.html"> Addition</a>
           <a href= "Chapter6/welcome.html">Welcome </a>
           <a href= "Chapter6/welcome2.html"> Welcome2 </a>
           <a href= "Chapter6/welcome3.html"> Welcome3 </a>
           <a href= "Chapter6/welcome4.html"> Welcome4 </a>
-          <a href= "Chapter6/welcome5.html"> Welcome5</a>
+          <a href= "Chapter6/welcome5.html"> Welcome5</a></p></div></center> <br><br>
           
 
-
-
-
-           <div class= "navbar">
-
-      <div class= "dropdown">
-        <button class= "dropbtn">Chapter 7
-          <i class=" fa fa-caret-down"></i>
-        </button>
-        <div class= "dropdown-content">
-
-
-
-           <a href= "Chapter7/average.html"> Average</a>
+      <section class="sec-1">
+       <center>
+        <div class="dropdown">
+          <span>CHAPTER 7</span>
+          <div class="dropdown-content">
+          <p><a href= "Chapter7/average.html"> Average</a>
           <a href= "Chapter7/average2.html">Average2 </a>
           <a href= "Chapter7/analysis.html"> Analysis </a>
-          <a href= "Chapter7/increment.html"> Increment</a>
+          <a href= "Chapter7/increment.html"> Increment</a></p> </div></center> <br><br>
 
 
 
 
 
-       <div class= "navbar">
-
-      <div class= "dropdown">
-        <button class= "dropbtn">Chapter 8
-          <i class=" fa fa-caret-down"></i>
-        </button>
-        <div class= "dropdown-content">
-
-
-          <a href= "Chapter8/whilecounter.html"> WhileCounter</a>
+      <section class="sec-1">
+       <center>
+        <div class="dropdown">
+          <span>CHAPTER 8</span>
+          <div class="dropdown-content">
+          <p><a href= "Chapter8/whilecounter.html"> WhileCounter</a>
           <a href= "Chapter8/forcounter.html">ForCounter </a>
           <a href= "Chapter8/sum.html"> Sum</a>
           <a href= "Chapter8/interest.html"> Interest</a>
           <a href= "Chapter8/switchtest.html"> SwitchTest</a>
           <a href= "Chapter8/dowhiletest.html">DoWhileTest </a>
           <a href= "Chapter8/breaktest.html"> BreakTest</a>
-          <a href= "Chapter8/continuetest.html"> ContinueTest</a>
-          
-          
+          <a href= "Chapter8/continuetest.html"> ContinueTest</a></p></div></center><br><br>
 
-        </div>
 
-</section>
+
+
+
+      
+      <section class="sec-1">
+       <center>
+        <div class="dropdown">
+          <span>CHAPTER 9</span>    
+          <div class="dropdown-content">  
+          <p><a href= "Chapter9/SquareInt.html">SquareInt</a>
+          <a href= "Chapter9/maximum.html">Maximum</a>
+          <a href= "Chapter9/RandomInt.html">RandomInt</a>
+          <a href= "Chapter9/RollDice.html">RollDice</a>
+          <a href= "Chapter9/RollDice2.html">RollDice2 </a>
+          <a href= "Chapter9/Craps.html"> Craps</a>
+          <a href= "Chapter9/CrapsRules.html"> CrapsRules </a>
+          <a href= "Chapter9/scoping.html">Scoping </a>
+          <a href= "Chapter9/FactorialTest.html"> FactorialTest </a></p></div></center><br><br>
+         
+
+</center></section>
   <footer>
     <center>
-      &copy; Halime Makolli // Updated on 29/12/2020
+      &copy; Halime Makolli // Updated on 05/01/2021
     </center>
   </footer>
 

@@ -1,39 +1,7 @@
-.sidebar {
-	float: right;
-	width: 30%;
-	height: auto;
-	border: 1px solid white;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.sidebar-bottom {display: none;}
-@media screen and (max-width: 480px) {
-.sidebar {display: none;}
-.sidebar-bottom {
-	display: block;
-	position: relative;
-	width: 90%
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
-	border: 1px solid white;
-	background: white;
-}
-}
-
 body{
 	margin: 0;
 	padding: 0;
 }
- 
-
-
-
-
-
-
 
 header{
 	margin-top: -1%;
@@ -42,7 +10,7 @@ header{
 }
 
 header ul {
-	list-style-type:none;
+	list-style-type: none;
 }
 
 header ul li{
@@ -57,7 +25,7 @@ header ul li a {
 	left: 40%;
 	top: 20px;
 	background: white;
-	color: grey;
+	color: blue;
 	padding: 5px;
 	transition: .5s;
 }
@@ -71,10 +39,11 @@ header a:hover{
 
 .sec-1{
 	height: 500px;
-	background: lightblue;
+	background: blue;
 
-	color:black;
+	color:white;
 }
+
 
 
 footer{
