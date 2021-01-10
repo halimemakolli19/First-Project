@@ -5,7 +5,7 @@ body{
 
 header{
 	margin-top: -1%;
-	height: 75px;
+	height: 80px;
 	background: black;
 }
 
@@ -19,13 +19,13 @@ header ul li{
 
 header ul li a {
 	text-decoration: none;
-	font-size: 130%;
+	font-size: 100%;
 	font-weight: bold;
-	position: relative;
+	position: all;
 	left: 40%;
 	top: 20px;
-	background: white;
-	color: black;
+	background: black;
+	color: white;
 	padding: 5px;
 	transition: .5s;
 }
@@ -38,9 +38,8 @@ header a:hover{
 }
 
 .sec-1{
-	height: 500px;
+	height: 400px;
 	background: purple;
-
 	color:black;
 }
 

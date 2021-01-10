@@ -1,44 +1,14 @@
-.sidebar {
-	float: right;
-	width: 30%;
-	height: auto;
-	border: 1px solid white;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.sidebar-bottom {display: none;}
-@media screen and (max-width: 480px) {
-.sidebar {display: none;}
-.sidebar-bottom {
-	display: block;
-	position: relative;
-	width: 90%
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
-	border: 1px solid white;
-	background: white;
-}
-}
-
 body{
 	margin: 0;
 	padding: 0;
 }
- 
 
-
-
-
-
-
+}
 
 header{
 	margin-top: -1%;
 	height: 75px;
-	background: black;
+	background: lightblue;
 }
 
 header ul {
@@ -51,9 +21,9 @@ header ul li{
 
 header ul li a {
 	text-decoration: none;
-	font-size: 130%;
+	font-size: 100%;
 	font-weight: bold;
-	position: relative;
+	position: all;
 	left: 40%;
 	top: 20px;
 	background: white;
@@ -70,16 +40,10 @@ header a:hover{
 }
 
 .sec-1{
-	height: 500px;
+	height: 700px;
 	background: lightblue;
-
 	color:black;
 }
 
 
-footer{
-	background: black;
-	height: 75px;
-	color: white;
-	position: relative;
-}
+

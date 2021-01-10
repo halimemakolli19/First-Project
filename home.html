@@ -2,46 +2,87 @@
 <!--Welcome to my website.-->
 <html>
 <head>
-	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 100%;
+    padding: 0;
+ 
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main  {
+    width: 100%;
+  }
+}
+</style>
 	<title>Welcome</title>
  	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-   	<header>
+		<header>
    		<ul>
    			<li>
-   				<a href="home.html">Home</a>
-				<a href="about.html">About</a>
-				<a href="homeworks.html">HomeWorks</a>
-				<a href="contactme.html">ContactMe</a>
-				<a href="MyHoby.html">My Hoby</a>
+   				<div class="menu">
+   				<div class="menuitem"><a href="home.html">Home</a></div>
+				<div class="menuitem"><a href="about.html">About</a></div>
+				<div class="menuitem"><a href="homeworks.html">HomeWorks</a></div>
+				<div class="menuitem"><a href="contactme.html">ContactMe</a></div>
+				<div class="menuitem"><a href="MyHoby.html">My Hoby</a></div>
    			</li>
    		</ul>
-   	</header>
+   </header>
 <!-- header ends -->
 
 <section class="sec-1">
 	<center>
 	<div class="container">
-	<center> <img src="images/hm19.jpg" width="250" height="250" style="border-radius: 50%;">
+	
 	<br>
 	<br>
 	<br>
-		<text align="center">
 
-	    <h1><b><i>Hi I'm Halime Makolli</i></b></h1>
-
-       
-	<p><i><b>In this website you'll read something about me and my life, about where i come, what I've learned, for my hobies but for my favorite singer too.(:</b></i></p>
+	 <div class="main">
+	<h1><b><i>Hi, I'm Halime Makolli</i></b></h1>
+ <center><img src="images/hm19.jpg" width="250" height="250"style="border-radius: 50%;"></center>
 
 
-		<p><i><b>THANK YOU FOR WATCHING THIS</b></i></p>
+	<p><i><b>THANK YOU FOR WATCHING THIS</b></i></p></div>
 </section>
-	<footer>
-		<center>
-			&copy; Halime Makolli // Updated on 05/01/2021
-		</center>
-	</footer>	
-			
+		
+<footer>
+   <center>
+    &copy; Halime Makolli // Updated on 10/01/2021
+   </center>
+  </footer>	
+
 </body>
 </html>

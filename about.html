@@ -2,41 +2,88 @@
 <!-- talking about myself-->
 <html>
 <head>
-	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
-	<title>My biography</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 0%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 5px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: center;
+  width: 80%;
+  padding: 0px 0px;
+  overflow: hidden;
+  background-color: blue;
+}
+
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:500px) {
+  /* For tablets: */
+  .menu, .main {
+    width: 100%;
+    padding: 0;
+} 
+
+@media only screen and (max-width:480px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+
+<title>My biography</title>
 	<link rel="stylesheet" href="style2.css">
 </head>
 <body>
    	<header>
    		<ul>
    			<li>
-   				<a href="home.html">Home</a>
-				<a href="about.html">About</a>
-				<a href="homeworks.html">HomeWorks</a>
-				<a href="contactme.html">ContactMe</a>
-				<a href="MyHoby.html">My Hoby</a>
+   				
+                <div class="menu">
+   				<div class="menuitem"><a href="home.html">Home</a></div>
+				<div class="menuitem"><a href="about.html">About</a></div>
+				<div class="menuitem"><a href="homeworks.html">HomeWorks</a></div>
+				<div class="menuitem"><a href="contactme.html">ContactMe</a></div>
+				<div class="menuitem"><a href="MyHoby.html">My Hoby</a></div>
    			</li>
    		</ul>
    	</header>
 <!-- header ends -->
 
 
-
-
-<text align="center">
-<h1><i>A LITTLE ABOUT ME</i></h1>
-
-
+<div class="main">
+<center>
+<h1><i>A LITTLE ABOUT ME</i></h1></center>
 <section class="sec-1">
 	<center>
 	<div class="container">
-	<center><img src="images/halimemakolli.jpg" width="250" height="250"style="border-radius: 50%;"></center>
+	<center><img src="images/halimemakolli.jpg" width="250" height="250"style="border-radius: 50%;"></center></div>
 	<br>
 	<br>
 	<br>
-<div class="container">
-	<text align="center">
 
+	<div class="main">
+    <section class="sec-1">
+	<div class="container">
+	<center>
     <p><b><i>Hi all, first i hope you'll like this.
 	I'm Halime Makolli, I'm 19 years old and i come from Drenas, I went at Fehmi Lladrovci school in Drenas
 	and there I studied the direction of electronics, my life there was something new like always
@@ -44,44 +91,35 @@
 moment i'm learning how to code, I don't know to code so well but i hope i will learn...My hoby is to learn new things and to write like poems and quotes, i listen a lot of music but more in eglish language,
 	i don't have a favorite song but my favorite rapper is "NF".
 	I also writed a lot of quotes and I've read so much about quotes and poems... i also have a favorite writer too and
-he's "Charles Bukowsi"...</i></b></p>
+he's "Charles Bukowsi"...</i></b></p></center></div><br>
+
+	<div class="main">
+    <section class="sec-1">
+	<div class="container">
+	<center> 
 <p><i><b>In my secondary school I had a lot of friends with who i spent 70% of my time and enjoyed every second that i spent there,
 there every professor was so good and always wanted us to learn new things, for example how to know our talent and what we can do, and I'm so happy that I've learned what I will do in my future...I love what I'm studying and I hope that I will learn something new for every day...
 For me is such a good way to study at universum college because they give you a opportunity to learn
- <section class="sec-1">
-	<center>
-	<div class="container">
-		<section class="sec-1">
-	<center>
-	<div class="container">
-something you didn't know and I'm so lucky to be here. I was sceared before that because I didn't believe that i can go to a college and learn something like coding but now that I'm here I will do the best...</i></b></p>
-<section class="sec-1">
-	<center>
-	<div class="container">
-		<section class="sec-1">
-	<center>
-	<div class="container">
-<p><i><b>I talked for my favorite rapper that he's "NF", he's the one that  listen cause with his songs he makes me feel better and he has a good voice and i like it...
-	Nathan John Feuerstein (NF) was born in Gladwin, Michigan, on March 30 1991. His parents divorced, and he was raised by his mother until his father had to take him away when her boyfriend abused him. His mother died from an overdose in 2009 which led to him dedicating the song "How Could You Leave Us" to her. He graduated from Gladwin High School in 2009, and was on the basketball team. NF started his career at the Fine Arts Festival organized by Connection Church in Canton, Michigan.
-Feuerstein stated that, during his childhood, rap was an escape for him. He would record songs on a karaoke machine, recording instrumentals on one microphone and his raps on the other. On November 29, 2010, Feuerstein independently released his debut studio album Moments under his real name. On August 2, 2011, he released his debut single "Alone". The song featured songwriter and producer Tommee Profitt and Brooke Griffith. In 2012, Feuerstein's work attracted the attention of Xist Music. On May 2, 2012, he released his debut extended play I'm Free with production work from Profitt.
-you can listen his songs in youtube: "NFrealmusic"</b></i></p>
-
-
-
+something you didn't know and I'm so lucky to be here. I was sceared before that because I didn't believe that i can go to a college and learn something like coding but now that I'm here I will do the best...</b></i></p></center></div><br>
 
 	
 
-</section>
-	<footer>
-		<center>
-			&copy; Halime Makolli // Updated on 05/01/2021
-		</center>
-	</footer>
-
-
-
+	<div class="container">
+	<div class="main">
+	<center>
+<p><i><b>I talked for my favorite rapper that he's "NF", he's the one that  listen cause with his songs he makes me feel better and he has a good voice and i like it...
+	Nathan John Feuerstein (NF) was born in Gladwin, Michigan, on March 30 1991. His parents divorced, and he was raised by his mother until his father had to take him away when her boyfriend abused him. His mother died from an overdose in 2009 which led to him dedicating the song "How Could You Leave Us" to her. He graduated from Gladwin High School in 2009, and was on the basketball team. NF started his career at the Fine Arts Festival organized by Connection Church in Canton, Michigan.
+Feuerstein stated that, during his childhood, rap was an escape for him. He would record songs on a karaoke machine, recording instrumentals on one microphone and his raps on the other. On November 29, 2010, Feuerstein independently released his debut studio album Moments under his real name. On August 2, 2011, he released his debut single "Alone". The song featured songwriter and producer Tommee Profitt and Brooke Griffith. In 2012, Feuerstein's work attracted the attention of Xist Music. On May 2, 2012, he released his debut extended play I'm Free with production work from Profitt.
+you can listen his songs in youtube: "NFrealmusic"</b></i></p></div></center><br>
 </body>
 </head>
 </html>
+</center></section>
 
+
+  <footer>
+    <center>
+      &copy; Halime Makolli // Updated on 10/01/2021
+    </center>
+  </footer>
 

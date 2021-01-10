@@ -1,22 +1,65 @@
 <!DOCTYPE html>
 <!--Contact Me-->
 <!-- My social Media.-->
-
 <html>
 <head>
-	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>contact me</title>
-		<link rel="stylesheet" href="style4.css">
+	<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 0%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 5px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: center;
+  width: 80%;
+  padding: 0px 0px;
+  overflow: hidden;
+  background-color: blue;
+}
+
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:500px) {
+  /* For tablets: */
+  .menu, .main {
+    width: 80%;
+    padding: 0;
+} 
+
+@media only screen and (max-width:480px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 80%;
+  }
+}
+</style>
+<link rel="stylesheet" type="text/css" href="style4.css">
 </head>
 <body>
        	<header>
    		<ul>
    			<li>
-   				<a href="home.html">Home</a>
-				<a href="about.html">About</a>
-				<a href="homeworks.html">HomeWorks</a>
-				<a href="contactme.html">ContactMe</a>
-				<a href="MyHoby.html">My Hoby</a>
+   				<div class="menu">
+   				<div class="menuitem"><a href="home.html">Home</a></div>
+				<div class="menuitem"><a href="about.html">About</a></div>
+				<div class="menuitem"><a href="homeworks.html">HomeWorks</a></div>
+				<div class="menuitem"><a href="contactme.html">ContactMe</a></div>
+				<div class="menuitem"><a href="MyHoby.html">My Hoby</a></div></div>
    			</li>
    		</ul>
    	</header>
@@ -75,7 +118,7 @@
 </section>
 	<footer>
 		<center>
-			&copy; Halime Makolli // Updated on 05/01/2021
+			&copy; Halime Makolli // Updated on 10/01/2021
 		</center>
 	</footer>
 
